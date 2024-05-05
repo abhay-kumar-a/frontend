@@ -1,0 +1,210 @@
+
+👉 Introduction to CSS
+⌨️ (00:02:34) Course Plan
+⌨️ (00:03:40) What is CSS? Why CSS?
+⌨️ (00:04:18) Extension1: live server extension
+⌨️ (00:06:00) CSS Rules Syntax 
+⌨️ (00:07:51) Inline CSS
+⌨️ (00:12:00) Internal CSS
+⌨️ (00:15:43) External CSS
+
+👉 Selectors and Combinators
+⌨️ (00:21:40) Selector
+⌨️ (00:23:10) Element selectors 
+⌨️ (00:25:02) Extension2: Color Highlight 
+⌨️ (00:26:15) Grouping selectors 
+⌨️ (00:27:50) Nested selectors 
+⌨️ (00:32:28) Universal selectors 
+⌨️ (00:35:30) ID selectors 
+⌨️ (00:40:00) class selectors 
+⌨️ (00:45:07) Extension3: HTML to CSS autocompletion
+⌨️ (00:47:47) Attribute selectors 
+⌨️ (00:53:18) Pseudo class & Pseudo element selectors 
+⌨️ (01:07:30) Descendant selectors 
+⌨️ (01:09:35) Child selectors 
+⌨️ (01:12:40) Adjacent & General siblings  selectors 
+
+👉 Typography
+⌨️ (01:14:20) font
+⌨️ (01:21:38) Google font
+⌨️ (01:26:44) color
+⌨️ (01:33:20) text
+⌨️ (01:41:46) font awesome icon
+
+👉 Box Model
+⌨️ (01:46:55) box model
+⌨️ (01:50:55) padding
+⌨️ (01:54:53) border
+⌨️ (01:57:45) margin
+⌨️ (02:00:14) box-sizing
+⌨️ (02:08:12) inline vs inline-block vs block element
+⌨️ (02:17:19) width vs max-width
+⌨️ (02:21:55) opacity
+⌨️ (02:24:00) overflow 
+⌨️ (02:29:09) background
+
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+🏅 Part-2: Advanced CSS
+⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼⎼
+⌨️ (02:37:28) variables
+⌨️ (02:44:38) filter
+⌨️ (02:46:10) Shadows & design a card
+
+👉 Layout Design
+⌨️ (02:58:12) float
+⌨️ (03:13:20) position - static
+⌨️ (03:18:48) position - relative
+⌨️ (03:20:03) position - fixed
+⌨️ (03:21:35) position - absolute
+⌨️ (03:25:40) design a fixed navbar
+⌨️ (03:28:35) z-index
+⌨️ (03:32:30) flex layout
+⌨️ (03:55:06) Task1: centre element
+⌨️ (03:58:30) Reusing CSS class
+⌨️ (04:00:33) single flex item
+⌨️ (04:04:38) Task2: centre the navbar menu
+⌨️ (04:06:42) Task3: centre the menu items
+⌨️ (04:10:13) Task4: centre items in a row
+⌨️ (04:16:27) Extension4: CSS Flexbox cheatsheet
+⌨️ (04:18:06) grid layout
+
+👉 Responsive web design 
+⌨️ (04:44:20) Responsive web design
+⌨️ (05:19:40) design circle using border-radius
+
+👉 Animation, Transition, Transform
+⌨️ (05:22:42) What is Transition?
+⌨️ (05:26:20) transition
+⌨️ (05:32:20) Task6: add transition when hovering
+⌨️ (05:34:28) transform
+⌨️ (05:39:24) Task7: scale when hovering
+⌨️ (05:47:09) Animation
+⌨️ (05:52:39) Task8: circle the dive
+
+👉 CSS Architecture BEM - Block, Element, Modifier
+⌨️ (06:06:08) why do we need BEM Architecture?
+⌨️ (06:07:42) Specificity calculation 
+⌨️ (06:22:35) BEM Architecture 
+⌨️ (06:38:08) Block
+⌨️ (06:40:40) Element
+⌨️ (06:44:23) Task9: Element naming 
+⌨️ (06:47:20) Modifier
+⌨️ (06:52:39) Task10: BEM exercise
+⌨️ (06:56:08) Extension5: BEM Helper
+
+
+
+Css syntax rule 
+
+selectTheElement{
+    property : value
+}
+
+
+------
+how to style the html page.
+
+1. inline css 
+    style = "background-color :green ; -> style is Attribute which have property and value.
+2. internal css
+    if we want to design multiple element together , and do not repeat the style attribute multiple time.
+    <style>
+       design all html elements.
+    </style>
+3. external css  -> highly recommended.
+   if we make css file separately and write all css design code here. and 
+   link this css file with html file.
+     "    <link rel="stylesheet" href="index-css.css"/> "  -> in head tag.
+
+
+     element {
+        property: value
+     }
+--------
+
+selectors and  Combinators.
+ 1. Element/tag , Grouping, Nested , Universal
+ 2. ID (section for different part of your website)
+ 3. Class selector 
+4. Attribute
+    syntax : 
+
+    element[attr]{ 
+                }
+5. pseudo class and pseudo element selector.
+    pseudo class selector  -> :
+    element class selector -> ::
+
+color- highlight ->extension 
+html to css auto completion -> extension
+
+6. Child , Descendant, adjacent , general , siblings selector
+
+---------------------
+TYPOGRAPHY: 
+font properties : font-size , font-weight, font-style font-family
+- how to use the google font
+- color : colorName , RGB , Hexa , Important color tool 
+- Test properties 
+- Icon and emoji styling 
+- adding font awesome icon + style.
+
+
+Important tool
+-- google font  -> check how to work
+-- color picker 
+- flat Icon
+- flat ui color 
+- color hunt   -> provide hex code color 
+- font awesome cdn , font awesome icon
+
+
+
+4. Box Model 
+
+- Content , Padding , border , margin ,
+- box-sizing,
+- display : inline / block / inline-block
+
+- width vs max-width
+- opacity , overflow
+
+- Background property
+- block element and inline element 
+
+------------------------------
+B. Advanced Topic 
+
+- Variables , filter
+- Shadows - text and box Shadows
+- layout design : z-index , Positioning , floats , flex , grid
+- Responsiveness
+- Animation : Transition ,Transform (rotate(), scale(), translate() , skew()), Animation , Figma
+- CSS Architecture : CSS Specificity , BEM / OOCSS / SMACSS
+
+for flex layout -> CSS flexbox cheatsheet;  extension
+
+CSS Specificity  -> Important > inline styling > id > class > element  (decreasing specificity.)
+
+BEM -> Block , Element , Modifier.
+
+issue/ problems 
+1 > specificity issue : avoid id/tag.
+2 > classname clashes.
+3 > Not a standard name for class.
+
+-> with BEM Architecture we can resolve all above issues.
+
+Block  : we can use letters , digits , dashes for naming block ;
+         use dashes when more that one word.
+        
+Element : we can user letters , digits , dashes , underscore from naming element.
+syntax : block__element.
+
+Modifier :  Modifier is something the changes in appearance of state.
+            we can user letters , digits , dashes , underscore from naming element.
+syntax   : block/element--modifier
+
+state of element.
+
+- C. Projects : Blog 

@@ -1,0 +1,22 @@
+/* 1rem = 16px = 100% */
+
+p{
+    /* font-size: 32px; */
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-style: italic;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; */
+    font-family: "Roboto", sans-serif;
+    /* text-align: center; */
+    text-transform: uppercase;
+    text-decoration: underline;
+    /* text-indent: 5rem;  to give the space */
+    /* letter-spacing: 0.5rem;   to give space in every letter */
+    /* text-shadow: 0.1rem 0.2rem orange;   to give the text shaow */
+    line-height: 2rem;
+
+}
+
+a{
+    text-decoration: none;
+}

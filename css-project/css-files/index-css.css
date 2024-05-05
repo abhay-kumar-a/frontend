@@ -1,0 +1,72 @@
+h1,
+p  {
+   background-color: green  ;
+   color: red;
+}
+/* p {
+    background-color: green;
+    color: red;
+} */
+a {
+    color: pink;
+}
+
+/* nested selector  */
+ul li a {
+    color: black;
+}
+
+div p {
+    background-color: aqua;
+    color: brown;
+}
+
+
+
+/* universal selector */
+/* * {
+    background-color: chartreuse;
+    color:  rebeccapurple;
+} */
+
+#sec1 {
+    background-color: green;
+}
+#sec2 {
+    background-color: pink;
+}
+
+.btn1 {
+    background-color: orange;
+}
+
+.newButton{
+    background-color: darkcyan;
+}
+
+/* ----------- */
+/* element[attr]{
+
+} */
+input[type="text"] 
+{
+    background-color: bisque;
+}
+input[type="email"]
+{
+    background-color: blue;
+}
+
+
+div a:hover{    /* when move cursor to like then color will change
+     */
+    background-color: chocolate;
+}
+
+button:disabled{
+  background-color: red;
+  color: rgb(194, 28, 28);
+}
+
+
+

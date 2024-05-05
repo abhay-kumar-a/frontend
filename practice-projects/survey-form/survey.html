@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+<body>
+    <h1 id ="let" style="text-align: center; color: blueviolet;">Let's start the development</h1>
+    <br>
+    <h1 id="title" >GeeksForGeeks Survey Form</h1>
+
+    <div>
+    <form action="./success.html">
+     
+        <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text"  id="name" placeholder="Enter Your name" required>
+    </div>
+
+    <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter you email" required>
+    </div>
+    <div class="form-control">
+                <label for ="age">Age</label>
+        <input type="number" id="age" placeholder="Enter your age" required>
+    </div>
+
+    <br>
+    <div class="form-control">
+        <label for="selectType">Which option best describes you?</label>
+        <select id="selectType" name="selectType">
+            <option value="student">Student</option>
+            <option value="engineer">Engineer</option>
+            <option value="doctor">Doctor</option>
+            <option value="advocate">Advocate</option>
+
+        </select>
+
+    </div>
+
+    <br>
+    <div class="form-control">
+
+        <label>Would you recommend GeeksForGeeks to a friend?</label>
+       
+        <label for="yes">
+            <input type="radio" id="yes" name="yes">Yes</label>
+        </label>
+        
+        <label for="no">
+            <input type="radio" id="no" name="no">No</input>
+        </label>
+        <label for="maybe">
+            <input type="radio" id="maybe" name="maybe">Maybe</input>
+
+        </label>
+    </div>
+    <br>
+
+    <div class="form-control">
+        <label>Language and Framework known(<small>check all that apply</small>)</label>
+        
+        <label for="c">
+            <input type="checkbox" id="c" name="c"> C </input>
+        </label>
+        
+        <label for="c++">
+            <input type="checkbox" id="c++" name="c++"> C++</input>
+        </label>
+
+        <label for="c#">
+            <input type="checkbox" id="c#" name="c#"> C#
+        </label>
+
+        <label for="java">
+            <input type="checkbox" id="java" name="java"> JAVA
+
+        </label>
+
+        <label for="python">
+            <input type="checkbox" id="python" name="python">
+            Python
+        </label>
+
+        <label for="javascript">
+            <input type="checkbox" id="javascript" name="javascript">
+            Javascript
+        </label>
+
+        <label for="react">
+            <input type="checkbox" id="react" name="react">
+            React
+        </label>
+
+        <label for="angular">
+            <input type="checkbox" id="angular" name="angular"> Angular
+        </label>
+
+        <label for="django">
+            <input type="checkbox" id="django" name="django"> Django
+
+        </label>
+
+        <label for="spring">
+            <input type="checkbox" id="spring" name="spring"> Spring
+
+        </label>
+
+        <label for="spring-boot"> 
+            <input type="checkbox" id="spring-boot" name="spring-boot"> Spring Boot
+
+        </label>
+
+    </div>
+    <br>
+    <div class="form-control">
+        <label for="comments">Any Comments or Suggestions</label>
+        <textarea id="comments" name="comments" 
+        placeholder="Enter you comments here.">
+        </textarea>
+    </div>
+        <button type="submit" value="submit">
+               Submit
+        </button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    background-color: lightgreen;
+   padding: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   text-align: center;
+}
+
+#title{
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(122, 118, 118);
+}
+form{
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px  rgb(158, 156, 156);
+    
+}
+.form-control{
+        text-align: left;
+        margin-bottom: 10px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input, .form-control select , .form-control textarea 
+{
+ border: 2px solid #777;
+ border-radius: 3px;
+ font-family: 'Times New Roman', Times, serif;
+ padding: 10px;
+display: block;
+width: 95%;
+
+}
+
+.form-control input[type="radio"], .form-control input[type="checkbox"]
+{
+    display: inline-block;
+    width:auto
+}
+button{
+    background-color: #05c405;
+    border: 2px solid #777;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
