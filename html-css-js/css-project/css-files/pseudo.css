@@ -1,0 +1,42 @@
+button{
+    background-color: rebeccapurple;
+    color: white;
+}
+/* pseudo class  selector */
+a:hover{
+    background-color: pink;
+}
+
+a:active{
+    color: rgb(255, 0, 106);
+}
+a {
+    color: aqua;
+}
+
+input:focus{
+    background-color: pink;
+}
+
+ul li:last-child {
+    color: orange ;
+}
+
+ul li:nth-child(3){
+    color: orange;
+}
+
+/* pseudo element selector */
+p::first-letter{
+    color: blue;
+}
+
+/* p::after{
+    content: "";
+    border: 1rem solid red
+    ;
+} */
+
+#div1 > p {
+   color: pink;
+}

@@ -1,0 +1,110 @@
+Library 
+1 . GSAP
+2. Lenis
+3. Reactjs
+
+Framework
+
+1. NextJs 
+2.Angular
+3. Vuejs
+
+1. --------------------elemets are creted using js ----------------
+
+// elemets are creted using js 
+
+// var h1  = document.createElement('h1')
+// // console.log(h1)
+
+// h1.innerHTML = 'Hello this is Js'
+
+// console.log(h1)
+
+// document.body.appendChild(h1)
+
+2. -----------------Import and export---------------
+
+-> how to work with muitple files 
+-> sent data form one file to another file 
+
+-> you have to make the script file and type = mudule
+
+
+exprt -2 
+
+named    -> give the variavble name and export
+default export   -> no need to give the variable name 
+
+3. --------------real dom and vertial dom--------------------
+  html -> head , body
+
+  head -> title
+
+  body -> header , section1 , section2 , footer
+
+  section1 -> h1  , img , button
+
+  seanrio -> if user want to change thw h1 while click in bitton
+  then in case of real DOM all game means while dom will reload 
+  (render)
+
+  but in case of virtual dom only the h1 will reload (because he make copy of real dom and compare then change)
+
+  4. --------------------JSX--------------------------------------
+
+ JSX -> Javascripts + XML 
+  
+  HTML+ Javascripts -> you can write the html element in Js very easly
+
+  in .js -> creating element are very difficult (check 1)
+  but is .jsx very easly
+
+var h1  = <h1>Hello this is jsx</h1>
+
+console.log(h1)
+
+document.body.appendChild(h1)
+
+
+// funtions 
+function hello(){
+    console.log('hello')
+}
+
+// function calling
+hello(); // this is in js
+<hello /> // this used in jsx
+
+
+5. ---------------------- create react apps---------------
+npm create-react-app // do not use
+
+use react as Framework with nextjs or vite
+
+vite -> blunder tool
+
+npm create vite -> then enter project name -. then select the library
+
+
+--------------------create folder1--------------------------
+
+now react based project created 
+
+understand the folder structure
+
+App.jsx -> remove all and created function and export that 
+Main.jsx is the parent of App.jsx.
+
+App.jsx
+
+
+// This is what Vite does when it sees import './index.css'
+
+// 1. Extracts the CSS content
+// 2. Creates a <style> tag or <link> tag
+// 3. Injects it into index.html's <head>
+ 
+<>    -> this is callsed fragements means empty tags , which helpfull to creeated multiple div tag.
+</>
+
+this tag behave like a wrapper -> that will rap the tags 

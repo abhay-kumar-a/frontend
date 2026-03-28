@@ -1,0 +1,52 @@
+ 
+# ─── Compiled Output ───────────────────────────────────────────
+target/                    # Maven build output
+*.class                    # Compiled Java classes
+*.jar                      # JAR files (unless you intentionally commit them)
+*.war
+*.ear
+
+# ─── IDE Files ─────────────────────────────────────────────────
+.idea/                     # IntelliJ IDEA project files
+*.iml                      # IntelliJ module files
+.eclipse/
+.classpath
+.project
+.settings/
+
+# ─── Environment & Secrets ─────────────────────────────────────
+.env                       # Environment variables (NEVER commit this)
+.env.local
+application-local.properties   # Local Spring Boot config overrides
+secrets.yml
+
+# ─── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── OS Files ──────────────────────────────────────────────────
+.DS_Store                  # Mac metadata
+Thumbs.db                  # Windows thumbnail cache
+
+
+# ─── Dependencies ──────────────────────────────────────────────
+node_modules/              # Never commit — use npm install to restore
+
+# ─── Build Output ──────────────────────────────────────────────
+dist/
+build/
+.next/
+
+# ─── Environment & Secrets ─────────────────────────────────────
+.env
+.env.local
+.env.production
+
+# ─── Logs ──────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ─── IDE & OS ──────────────────────────────────────────────────
+.vscode/
+.DS_Store
+Thumbs.db
