@@ -458,3 +458,6 @@ flowchart LR
 ---
 
 *Keep this file updated as your team's Git workflow evolves.*
+
+
+![alt text](image.png)
