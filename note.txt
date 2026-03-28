@@ -108,3 +108,32 @@ App.jsx
 </>
 
 this tag behave like a wrapper -> that will rap the tags 
+
+
+---------------component based structure-------------
+
+<div className ='card'>
+      <h1>Abhay Kumar</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, sed!</p>
+    </div>
+
+    <div className ='card'>
+      <h1>Abhay Kumar</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, sed!</p>
+    </div>
+
+    <div className ='card'>
+      <h1>Abhay Kumar</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, sed!</p>
+    </div>
+    </>
+
+components -> these are small small feature of webpage , which are specific to single set of visuals
+component based architecture
+
+----------------props--------------
+now yoo have 3 card wih same structure , how you will give diff data to each card.
+-> here will use the props 
+
+propr -> help to write dynamic data in components
+
