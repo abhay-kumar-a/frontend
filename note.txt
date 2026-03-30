@@ -1,3 +1,11 @@
+  press r + enter to restart the server
+  press u + enter to show server url
+  press o + enter to open in browser
+  press c + enter to clear console
+  press q + enter to quit
+
+  
+
 Library 
 1 . GSAP
 2. Lenis
@@ -137,3 +145,14 @@ now yoo have 3 card wih same structure , how you will give diff data to each car
 
 propr -> help to write dynamic data in components
 
+
+----------------
+data pass form list to jsx.
+
+  const arr = ['Google' , 'Amazon' , 'Flipkart' , 'Microsoft' , 'Apple' , 'Meta' , 'Tesla' , 'Nvidia' , 'Intel' , 'AMD']
+
+    {
+      arr.map(function(name){
+        return <User name={name}/>
+      })
+    }

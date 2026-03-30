@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* text-align: center; */
+  color: rgb(0, 0, 0);
+}
+
+
+html,body {
+  /* height: 100%;
+  width: 100%; */
+  background-color: rgb(38, 38, 38);
+  
+}
+body {
+  background-color: #111;
+}
+.parent {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.jobCard {
+height: 350px;
+ width: 300px;
+ border-radius: 30px;
+ background-color: #ffff;
+ padding: 30px;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.jobCard .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.top img {
+  height: 40px;
+  
+  border: 1px solid rgb(114, 110, 110);
+  border-radius: 50%;
+  padding: 3px;
+   /* object-fit: cover; */
+}
+
+.top button {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 1px solid #a7a4a4;
+  color: #545050;
+  font-size: 13px;
+}
+
+
+
+
+.jobCard .center {
+  /* padding: 10px 0; */
+  /* background-color: red; */
+  margin-top: 2px;
+}
+
+.center h3 {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.center h3 span {
+  font-size: 11px;
+  font-weight: 100;
+  color: #545050;
+  
+}
+
+.center h2 {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.center .tag {
+  display: flex;
+  gap: 20px;
+}
+.center .tag h4 {
+  background-color: #cbc8c8;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 3px 5px;
+  font-weight: 400;
+
+}
+
+
+
+
+
+.buttom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #6f6d6d;
+  padding: 10px 0px;
+}
+
+.buttom button {
+  background-color: #111;
+  color: white;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 13.3px 10px;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+}
+
+.button .price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.price h3 {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.price h5 {
+  font-size: 13px;
+  font-weight: 50;
+  color: #545050;
+}
