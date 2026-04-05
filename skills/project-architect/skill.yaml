@@ -1,0 +1,30 @@
+name: project-architect
+description: Analyzes project architecture and generates ARCHITECTURE.md with folder structure, component hierarchy, data flow, and theory explanations for keywords used. Also supports updating documentation when new features are added.
+usage: |
+  Use this skill to document any project's architecture.
+  
+  Run: /architect [project-path]
+  
+  The skill will:
+  1. Scan project folder structure
+  2. Identify component relationships
+  3. Map data flow and props drilling
+  4. Detect React hooks and patterns
+  5. Generate ARCHITECTURE.md with theory explanations
+  
+  Run: /update-doc [project-path]
+  
+  The skill will:
+  1. Detect new components added since last documentation
+  2. Analyze new hooks, props, or patterns introduced
+  3. Update ARCHITECTURE.md with new structure
+  4. Add new keywords to KEYWORDS.md with theory
+
+commands:
+  - /architect
+  - /architect [path]
+  - /document-project
+  - /analyze-structure
+  - /update-doc
+  - /update-doc [project-path]
+  - /add-to-doc

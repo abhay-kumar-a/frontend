@@ -156,3 +156,136 @@ data pass form list to jsx.
         return <User name={name}/>
       })
     }
+
+-----------------------Styling with CSS --------------------
+genrally we are using index.css for styling but in any project each component have its own css file.
+
+use modular css 
+
+-------------------- Intro to Tailwind CSS-------------------------
+tailwind css ->  this is utility based css framework
+npm install tailwindcss @tailwindcss/vite
+
+website are basically two type
+1. feature based -  (css file is created for each feature)
+2. Atomic based -  (css file is created for each atomic feature)
+
+-------------------------  --------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------HOOKS----------------------
+
+how to call funtion in any button -> onClick={functionName}
+use the even for this.
+
+
+1.
+call funtion insite the button
+          <input onClick={function(){
+            onClick()
+          }} 
+        
+          type='text' placeholder='Enter Your age' />
+
+2.
+          <input onChange={
+            (elem) =>{
+              // console.log(i++ , "Input per click huaa hai..")
+            
+                console.log(elem)
+
+              console.log(elem.target)
+              console.log(elem.target.value)
+
+            }
+          } type="text" placeholder='Enter your Name' />
+
+
+-
+
+  // write your logics
+  let i = 0;
+  function onClick() {
+    console.log(i++, "On clock")
+  }
+  function mouseEnter() {
+    console.log(i++, "Mouse Enter...")
+  }
+       {/* <h1>Main App</h1>
+      <Test />
+      <h1>So Are you testing the Hooks</h1> */}
+
+      {/* <button onClick={onClick}>CLick Me</button> */}
+      {/* <button onDoubleClick={onClick}>CLick Me</button> */}
+      {/* <button onMouseEnter={mouseEnter} onDoubleClick={onClick}>CLick Me</button> */}
+
+      {/* use can create the funtion insite the button as well as outside the button */}
+
+      {/* <button onMouseEnter={() => {
+        console.log(i++, "Mouse Enter insite the button...")
+      }}>
+        CLick Me</button> */}
+
+
+      {/* <input type="text" /> */}
+
+      {/* <input onChange={
+            () =>{
+              // console.log(i++ , "Input per click huaa hai..")
+            
+              console.log(i++ , "typing")
+            }
+          } type="text" placeholder='Enter Name' /> */}
+
+
+      {/* <input onChange={
+        (elem) => {
+          // console.log(i++ , "Input per click huaa hai..")
+
+          console.log(elem)
+
+          console.log(elem.target)
+          console.log(elem.target.value)
+
+        }
+      } type="text" placeholder='Enter your Name' /> */}
+
+      {/* call funtion insite the button */}
+      {/* <input onClick={function () {
+        onClick()
+      }}
+
+        type='text' placeholder='Enter Your age' /> */}
+
+-------------- HOOKS--------------
+useState (asyncronus)-> manage the state , want to change and data  , 
+useEffect -> manage the side effects like api call and dom manipulation , even listener
+useRef -> its will select any dom element  , can hold the mutable value
+
+
+useContext -> manage the global context , global values can be define here
+useReducer -> manage complex global state , use in complex thing
+
+useMemo  -> optimization and avoid unnecessay re-rendaring  -> useCallback
+useCallback -> resolve the rerendering problems   , do render all website data again , change the specific data only
+
+functional component -> it is just a function which return jsx
+
+
+-> Destructuring 
+-> two-way binding
+
+
+-> api calling 
+npm i axios
