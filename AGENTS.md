@@ -2,21 +2,59 @@
 
 ## Overview
 
-This repository contains multiple vanilla HTML, CSS, and JavaScript learning and practice projects. It does **not** use any modern build systems (Node.js, npm, webpack, etc.).
+This repository contains multiple vanilla HTML, CSS, and JavaScript learning and practice projects, plus React learning projects.
 
 ---
 
 ## Project Structure
 
+### HTML/CSS/JS Projects
 ```
 frontend/
-├── html/                  # JavaScript practice files
-├── css/                   # CSS practice files  
-├── html-english-tutorial-project/  # Tutorial HTML project
-├── dummy_project/        # Practice projects
-├── blog-website-video/   # Blog website practice
-└── javascripts/          # Additional JS files
+├── html-css-js/
+│   ├── html/                  # JavaScript practice files
+│   ├── css/                   # CSS practice files  
+│   ├── html-english-tutorial-project/
+│   ├── practice-projects/
+│   │   ├── landing-page/
+│   │   ├── parallax-website/
+│   │   ├── survey-form/
+│   │   └── tribute-page/
+│   └── blog-website-video/
 ```
+
+### React Learning Projects
+```
+frontend/reactjs/learning-react/
+├── learning-react/           # React basics (counter demo)
+├── props/                    # Props practice
+├── hooks-practice/            # useState, events, routing
+├── card-mini-project/        # Job cards display
+├── react-components/         # Component patterns
+├── folder-1/                 # Basic template
+└── tailwind-css-projects/    # Tailwind CSS practice
+```
+
+---
+
+## Skills
+
+### Project Architect Skill
+This skill analyzes any project and generates architecture documentation.
+
+**Commands:**
+- `/architect [project-path]` - Generate ARCHITECTURE.md and KEYWORDS.md for a project
+- `/update-doc [project-path]` - Update existing documentation when new features are added
+
+**What it generates:**
+- **ARCHITECTURE.md**: Folder structure, component hierarchy, data flow, file reference
+- **KEYWORDS.md**: Theory explanations for React hooks, JS concepts, patterns used
+
+**Skill files location:** `skills/project-architect/`
+
+**Usage:**
+1. Run `/architect` followed by project path
+2. For future updates when you add new features, run `/update-doc`
 
 ---
 

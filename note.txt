@@ -1,3 +1,32 @@
+open code -> 
+Yes, exactly! For future sessions, you just need to:
+1. Tell me to load the skill:
+      /skill project-architect
+   
+2. Then tell me to analyze your project:
+      /architect [project-path]
+      Or to update existing docs:
+      /update-doc [project-path]
+   
+Quick workflow:
+- You: "Load the project-architect skill"
+- Me: Loads the skill
+- You: "Generate docs for project-path"
+- Me: Creates ARCHITECTURE.md and KEYWORDS.md for that project
+The skill files are already saved at:
+skills/project-architect/
+├── skill.yaml
+├── README.md
+├── analyze-project.md
+├── generate-docs.md
+└── theory-keywords.md
+So in future sessions, just mention you want to use the "project-architect" skill and I'll handle the rest!
+
+
+---------------------------
+
+
+  
   press r + enter to restart the server
   press u + enter to show server url
   press o + enter to open in browser
@@ -140,7 +169,7 @@ components -> these are small small feature of webpage , which are specific to s
 component based architecture
 
 ----------------props--------------
-now yoo have 3 card wih same structure , how you will give diff data to each card.
+now you have 3 card wih same structure , how you will give diff data to each card.
 -> here will use the props 
 
 propr -> help to write dynamic data in components
