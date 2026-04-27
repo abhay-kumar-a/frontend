@@ -32,7 +32,7 @@ Framework
 
 exprt -2 
 
-named    -> give the variavble name and export
+named    -> give the variable name and export
 default export   -> no need to give the variable name 
 
 3. --------------real dom and vertial dom--------------------
